@@ -1,0 +1,24 @@
+.customInput {
+  padding: 10px;
+  display: inline-block;
+  margin: 2px 5px;
+  border: none;
+  box-shadow: inset 0 0 5px #00000044;
+  border-radius: 10px;
+  background-color: #e3f6f6;
+  outline: none;
+  transition-property: background-color left right;
+  transition-duration: 200ms;
+  text-align: center;
+  position: relative;
+}
+
+.customInput:focus {
+  border: none;
+  background-color: #dfeeee;
+  outline: none;
+}
+
+.customInput.wrong {
+  background-color: #f6e3e3;
+}

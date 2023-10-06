@@ -1,0 +1,22 @@
+.customBtn {
+  background-color: #e2e2e2;
+  color: #171717;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #00000066;
+  transition-property: box-shadow transform background-color;
+  transition-duration: 300ms;
+  display: block;
+  margin-top: 10px;
+}
+
+.customBtn:hover {
+  background-color: #bbbbbb;
+  box-shadow: 0 0 20px #0000008d;
+}
+
+.customBtn:active {
+  transform: scale(0.95);
+}
